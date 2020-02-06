@@ -47,7 +47,7 @@ a /*tags dont have symbol before them like classes and IDs do*/
     border-radius: 25px; /*rounds the border*/
     height: 35px;
     font-size: 12pt;
-    width: 50%;
+    width: 500px;
     padding-left: 15px; /*added padding so the text starts 10 pixels from the edge of the search bar*/
     padding-right: 15px;
     border: #dfe1e5 solid 1px; 
