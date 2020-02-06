@@ -1,0 +1,29 @@
+#google-title /*referencing the necessary div*/
+{
+    text-align: center;
+    margin-top: 20%; /*Difference between padding and margins is that margins 
+    add area to the outside space, whereas padding adds area to the inside space. 
+    This can be seen when inspecting elements in the webpage. Margin is yellow, 
+    padding is purple.*/
+    font-size: 50pt;
+}
+
+#search-bar
+{
+    border-radius: 25px; /*rounds the border*/
+    height: 35px;
+    font-size: 15pt;
+    width: 50%;
+    padding-left: 10px; /*added padding so the text starts 10 pixels from the edge of the search bar*/
+    padding-right: 10px;
+}
+
+.google-buttons /*use '#' when referencing IDs and '.' for classes*/
+{
+    background-color: #f2f2f2;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #7a706c;
+}
