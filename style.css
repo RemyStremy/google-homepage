@@ -35,7 +35,7 @@ a /*tags dont have symbol before them like classes and IDs do*/
 #google-title /*referencing the necessary div*/
 {
     text-align: center;
-    margin-top: 20%; /*Difference between padding and margins is that margins 
+    margin-top: 10%; /*Difference between padding and margins is that margins 
     add area to the outside space, whereas padding adds area to the inside space. 
     This can be seen when inspecting elements in the webpage. Margin is yellow, 
     padding is purple.*/
