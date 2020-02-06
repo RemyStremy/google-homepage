@@ -4,6 +4,20 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div id="header">
+            <span> <!--spans stay on the same line, whereas divs go on new line-->
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </span>
+            <span id="rhs-nav">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#">
+                    <img src="https://image.flaticon.com/icons/png/512/60/60991.png" height="15px">
+                </a>
+                <input id="sign-in" type="button" value="Sign in">
+            </span>
+        </div>
         <div id="google-title"> <!--giving an ID to div allows the specific div to be referenced-->
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""> <br> <!--break/ new line-->
             <input id="search-bar" type="text" size="50" autofocus> <br> <!--autofocus makes search bar active when page is first loaded -->

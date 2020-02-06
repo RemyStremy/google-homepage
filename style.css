@@ -1,3 +1,37 @@
+body
+{
+    font-family: arial,sans-serif;
+}
+
+a /*tags dont have symbol before them like classes and IDs do*/
+{
+    text-decoration: none;
+    color: #57677f;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+#header
+{
+    margin-top: 20px;
+}
+
+#rhs-nav
+{
+    float: right;
+}
+
+#sign-in
+{
+    font-family: arial,sans-serif;
+    background-color: #4485f4;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    margin-left: 20px;
+}
+
 #google-title /*referencing the necessary div*/
 {
     text-align: center;
@@ -12,10 +46,11 @@
 {
     border-radius: 25px; /*rounds the border*/
     height: 35px;
-    font-size: 15pt;
+    font-size: 12pt;
     width: 50%;
-    padding-left: 10px; /*added padding so the text starts 10 pixels from the edge of the search bar*/
-    padding-right: 10px;
+    padding-left: 15px; /*added padding so the text starts 10 pixels from the edge of the search bar*/
+    padding-right: 15px;
+    border: #dfe1e5 solid 1px; 
 }
 
 .google-buttons /*use '#' when referencing IDs and '.' for classes*/
